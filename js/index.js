@@ -224,6 +224,9 @@ const app = {
       limitSp.style.color = "rgb(0, 68, 255)";
       this.remch1 = false;
     },
+    toc(e) {
+      this.go(e);
+    },
   },
   mounted() {
     window.addEventListener("keydown", (e) => {
